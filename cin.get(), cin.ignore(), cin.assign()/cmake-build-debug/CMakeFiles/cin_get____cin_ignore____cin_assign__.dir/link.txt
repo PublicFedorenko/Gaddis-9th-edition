@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/cin_get____cin_ignore____cin_assign__.dir/main.cpp.o  -o cin_get____cin_ignore____cin_assign__ 
