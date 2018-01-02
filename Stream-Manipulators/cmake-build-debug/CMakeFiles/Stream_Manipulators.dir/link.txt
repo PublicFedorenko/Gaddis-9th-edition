@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/Stream_Manipulators.dir/main.cpp.o  -o Stream_Manipulators 

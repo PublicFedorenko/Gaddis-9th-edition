@@ -1,3 +1,0 @@
-/home/bohdan/progbase/Gaddis-9th-edition/getline() input function/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/bohdan/progbase/Gaddis-9th-edition/getline() input function/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/bohdan/progbase/Gaddis-9th-edition/getline() input function/cmake-build-debug/CMakeFiles/getline___input_function.dir
