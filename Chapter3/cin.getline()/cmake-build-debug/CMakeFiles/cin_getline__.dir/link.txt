@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/cin_getline__.dir/main.cpp.o  -o cin_getline__ 
