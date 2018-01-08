@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../cin/.idea/cin().iml" filepath="$PROJECT_DIR$/../cin/.idea/cin().iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MagicDates.iml" filepath="$PROJECT_DIR$/.idea/MagicDates.iml" />
     </modules>
   </component>
 </project>

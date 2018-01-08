@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bohdan/progbase/Gaddis-9th-edition/Chapter3/cin()/main.cpp" "/home/bohdan/progbase/Gaddis-9th-edition/Chapter3/cin()/cmake-build-debug/CMakeFiles/cin__.dir/main.cpp.o"
+  "/home/bohdan/progbase/Gaddis-9th-edition/Chapter4/ProgChalenges/MagicDates/main.cpp" "/home/bohdan/progbase/Gaddis-9th-edition/Chapter4/ProgChalenges/MagicDates/cmake-build-debug/CMakeFiles/MagicDates.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
