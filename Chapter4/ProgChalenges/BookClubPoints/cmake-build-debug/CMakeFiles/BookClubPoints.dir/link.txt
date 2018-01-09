@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/BookClubPoints.dir/main.cpp.o  -o BookClubPoints 
