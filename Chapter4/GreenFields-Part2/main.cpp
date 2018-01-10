@@ -70,9 +70,9 @@ int main() {
     } else {
         treeCost = treeHeight * PRICE_4;
     }
-    cout << "\nCost per tree: $" << treeCost << endl;
+    cout << "\nCost per tree:                     $" << treeCost << endl;
     totalTreesCost = treesCount * treeCost;
-    cout << "Total price for trees: $" << totalTreesCost << endl;
+    cout << "Total price for trees:             $" << totalTreesCost << endl;
     totalCharges += totalTreesCost;
 
     /* Calculate planting and delivery */
@@ -80,15 +80,15 @@ int main() {
         deliveryCost =
                 (treesCount * PER_TREE_DELIVERY) > MAX_DELIVERY ? MAX_DELIVERY : (treesCount * PER_TREE_DELIVERY);
         totalCharges += deliveryCost;
-        cout << "Delivery cost: $" << deliveryCost << endl;
+        cout << "Delivery cost:                     $" << deliveryCost << endl;
     } else if (needPlanting) {
         plantingCost = totalTreesCost * .5;
         totalCharges += plantingCost;
-        cout << "Planting and delivery cost: $" << plantingCost << endl;
+        cout << "Planting and delivery cost:        $" << plantingCost << endl;
     }
 
-    cout << "------------------------------------------------------------";
-    cout << "\nTotal prise: $" << totalCharges << endl;
+    cout << "                                   ____________";
+    cout << "\nTotal prise:                       $" << totalCharges << endl;
 
     return 0;
 }
