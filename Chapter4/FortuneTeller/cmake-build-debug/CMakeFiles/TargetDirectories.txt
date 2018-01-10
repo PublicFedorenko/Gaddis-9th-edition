@@ -1,0 +1,3 @@
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter4/FortuneTeller/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter4/FortuneTeller/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter4/FortuneTeller/cmake-build-debug/CMakeFiles/FortuneTeller.dir
