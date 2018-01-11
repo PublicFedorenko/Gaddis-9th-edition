@@ -7,7 +7,7 @@ using namespace std;
 double celsius(double);
 
 int main() {
-    cout << "Fahrenheit         Celsius\n";
+    cout << "Fahrenheit        Celsius\n";
     cout << "_________________________\n";
     for (int fahrenheit = MIN_FAHRENHEIT; fahrenheit <= MAX_FAHRENHEIT; ++fahrenheit) {
         cout << fahrenheit << "                " << right << celsius(fahrenheit) << endl;
