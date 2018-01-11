@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/LittleLotto.dir/main.cpp.o  -o LittleLotto 
