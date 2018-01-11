@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter6/ProgChallenges/FallingDistance/main.cpp
+iostream
+-
+cmath
+-
+sys/param.h
+-
+iomanip
+-
+

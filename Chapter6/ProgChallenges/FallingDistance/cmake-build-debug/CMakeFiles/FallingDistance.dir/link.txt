@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/FallingDistance.dir/main.cpp.o  -o FallingDistance 
