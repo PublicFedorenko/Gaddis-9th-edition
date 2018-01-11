@@ -9,4 +9,6 @@
 /home/bohdan/progbase/Gaddis-9th-edition/Chapter6/ProgChallenges/CelsiusTemperture/main.cpp
 iostream
 -
+iomanip
+-
 

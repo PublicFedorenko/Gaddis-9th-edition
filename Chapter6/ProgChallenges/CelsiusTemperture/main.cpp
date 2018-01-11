@@ -1,4 +1,6 @@
 #include <iostream>
+#include <iomanip>
+
 using namespace std;
 
 #define MIN_FAHRENHEIT 0
@@ -10,7 +12,7 @@ int main() {
     cout << "Fahrenheit        Celsius\n";
     cout << "_________________________\n";
     for (int fahrenheit = MIN_FAHRENHEIT; fahrenheit <= MAX_FAHRENHEIT; ++fahrenheit) {
-        cout << fahrenheit << "                " << right << celsius(fahrenheit) << endl;
+        cout << fahrenheit << "               " << right << fixed << setw(10) << setprecision(4) << celsius(fahrenheit) << endl;
     }
     return 0;
 }
