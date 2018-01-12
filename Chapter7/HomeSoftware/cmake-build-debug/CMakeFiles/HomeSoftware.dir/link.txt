@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/HomeSoftware.dir/main.cpp.o CMakeFiles/HomeSoftware.dir/BankAccount.cpp.o CMakeFiles/HomeSoftware.dir/menu.cpp.o  -o HomeSoftware 
