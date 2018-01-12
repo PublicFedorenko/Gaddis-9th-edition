@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter6/ProgChallenges/OverloadedHospital/main.cpp
+iostream
+-
+iomanip
+-
+

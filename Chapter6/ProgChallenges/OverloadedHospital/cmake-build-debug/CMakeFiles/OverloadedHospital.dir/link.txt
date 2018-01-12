@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/OverloadedHospital.dir/main.cpp.o  -o OverloadedHospital 
