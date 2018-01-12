@@ -1,3 +1,3 @@
-/home/bohdan/progbase/Gaddis-9th-edition/setw()-left()-fixed()-setprec()/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/bohdan/progbase/Gaddis-9th-edition/setw()-left()-fixed()-setprec()/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/bohdan/progbase/Gaddis-9th-edition/setw()-left()-fixed()-setprec()/cmake-build-debug/CMakeFiles/Stream_Manipulators.dir
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter3/setw()-left()-fixed()-setprec()/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter3/setw()-left()-fixed()-setprec()/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter3/setw()-left()-fixed()-setprec()/cmake-build-debug/CMakeFiles/Stream_Manipulators.dir

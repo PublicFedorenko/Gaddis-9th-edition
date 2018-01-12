@@ -1,4 +1,4 @@
-# Install script for directory: /home/bohdan/progbase/Gaddis-9th-edition/getline() input function
+# Install script for directory: /home/bohdan/progbase/Gaddis-9th-edition/Chapter3/getline() input function
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bohdan/progbase/Gaddis-9th-edition/getline() input function/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bohdan/progbase/Gaddis-9th-edition/Chapter3/getline() input function/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
