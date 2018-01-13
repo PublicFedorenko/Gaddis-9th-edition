@@ -13,7 +13,9 @@ private:
     double interest;        // interest rate earned for the current period
     int transactions;       // current number of transactions
 public:
+    BankAccount();
     BankAccount(double balance, double interestRate);
+    makeDeposit(double deposit);
 };
 
 
