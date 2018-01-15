@@ -5,6 +5,8 @@
 #ifndef HOMESOFTWARE_MENU_H
 #define HOMESOFTWARE_MENU_H
 
-
+void displayMenu();
+void showParagraphs();
+void clear();
 
 #endif //HOMESOFTWARE_MENU_H

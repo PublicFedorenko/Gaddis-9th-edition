@@ -15,7 +15,13 @@ private:
 public:
     BankAccount();
     BankAccount(double balance, double interestRate);
-    makeDeposit(double deposit);
+    void makeDeposition(double deposit);
+    bool makeWithdrawal(double withdrawal);
+    void calcInterest(void);
+    double getBalance();
+    double getInterestRate();
+    double getInterest();
+    int getTransactions();
 };
 
 

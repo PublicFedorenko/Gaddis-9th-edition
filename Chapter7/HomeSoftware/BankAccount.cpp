@@ -10,7 +10,6 @@ BankAccount::BankAccount() {
     interest = 0.0;
     transactions = 0;
 }
-
 BankAccount::BankAccount(double balance, double rate = 0.045) {
     this->balance = balance;
     this->interestRate = rate;
@@ -18,8 +17,32 @@ BankAccount::BankAccount(double balance, double rate = 0.045) {
     this->transactions = 0;
 }
 
-BankAccount::makeDeposit(double deposit) {
+void BankAccount::makeDeposition(double deposit) {
     balance += deposit;
     transactions++;
-    
+}
+bool BankAccount::makeWithdrawal(double amount) {
+    if (amount > balance) {
+        return false;
+    }
+    balance -= amount;
+    transactions++;
+    return true;
+}
+void BankAccount::calcInterest(void) {
+    interest = balance * interestRate;
+    balance += interest;
+}
+
+double BankAccount::getBalance() {
+    return balance;
+}
+double BankAccount::getInterestRate() {
+    return interestRate;
+}
+double BankAccount::getInterest() {
+    return interest;
+}
+int BankAccount::getTransactions() {
+    return transactions;
 }
