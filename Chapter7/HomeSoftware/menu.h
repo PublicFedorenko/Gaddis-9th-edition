@@ -8,5 +8,6 @@
 void displayMenu();
 void showParagraphs();
 void clear();
+void checkExitCondition();
 
 #endif //HOMESOFTWARE_MENU_H

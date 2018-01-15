@@ -5,22 +5,32 @@
 #include <cctype>
 #include <iostream>
 #include "menu.h"
+#include "BankAccount.h"
+
 using namespace std;
 
 #define STREAM_SIZE 100
 
-void displayMenu() {
+void displayMenu(BankAccount acc) {
     int input = NULL;
 
-//    showParagraphs();
-    input = cin.get();
-    while (input != (int)'Q' && input != (int)'q') {
+    do {
+        showParagraphs();
+        input = cin.get();
+        cin.ignore(STREAM_SIZE, '\n');
         switch (input) {
             case 1:
                 clear();
-
+                cout << "1. Show current balance.\n";
+                cout << "Balance: $" << acc.getBalance();
+                cout << "\n\nPress any key to return.\tQ/q to exit.\n";
+                checkExitCondition();
+//                cin.get();  //todo try with cin.ignore();
                 break;
             case 2:
+                clear();
+
+
                 break;
             case 3:
                 break;
@@ -30,12 +40,16 @@ void displayMenu() {
                 break;
             case 6:
                 break;
+            case 'q':
+            case 'Q':
+                cout << "Bye bye!\n";
+                cin.get();
+                break;
             default:
                 cout << "Enter number within 1 trough 6.\n";
+                break;
         }
-        cin.ignore(STREAM_SIZE, '\n');
-        input = cin.get();
-    }
+    } while (input != (int) 'Q' && input != (int) 'q');
 }
 
 void showParagraphs() {
@@ -55,4 +69,13 @@ void clear() {
 //    std::cout << "\x1B[2J\x1B[H";
     std::cout << "\x1B[2J";
 
+}
+
+void checkExitCondition() {
+    cin.ignore(STREAM_SIZE, '\n');
+    int input = cin.get();
+    if (input == (int)'q' || input == (int)'Q') {
+        cout << "Bye bye!\n";
+        exit(EXIT_SUCCESS);
+    }
 }
