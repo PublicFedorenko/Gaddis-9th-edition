@@ -19,27 +19,60 @@ void displayMenu(BankAccount acc) {
         input = cin.get();
         cin.ignore(STREAM_SIZE, '\n');
         switch (input) {
-            case 1:
+            case 1: {
                 clear();
                 cout << "1. Show current balance.\n";
                 cout << "Balance: $" << acc.getBalance();
                 cout << "\n\nPress any key to return.\tQ/q to exit.\n";
                 checkExitCondition();
-//                cin.get();  //todo try with cin.ignore();
                 break;
-            case 2:
+            }
+            case 2: {
                 clear();
-
-
+                cout << "2. Show number of transactions.\n";
+                cout << "Transactions: " << acc.getTransactions();
+                cout << "\n\nPress any key to return.\tQ/q to exit.\n";
+                checkExitCondition();
                 break;
-            case 3:
+            }
+            case 3: {
+                clear();
+                cout << "3. Make deposit.\n";
+                cout << "Current balance: $" << acc.getBalance() << endl;
+                cout << "Enter amount of deposit: ";
+                double amount;
+                cin.ignore(STREAM_SIZE, '\n');
+                cin >> amount;
+                acc.makeDeposition(amount);
+                cout << "Balance after deposit: $" << acc.getBalance();
+                cout << "\n\nPress any key to return.\tQ/q to exit.\n";
+                checkExitCondition();
                 break;
-            case 4:
+            }
+            case 4: {
+                cout << "4. Make withdrawal.\n";
+                cout << "Current balance: $" << acc.getBalance();
+                cout << "Enter amount of withdrawal: ";
+                double amount;
+                cin.ignore(STREAM_SIZE, '\n');
+                cin >> amount;
+                acc.makeWithdrawal(amount);
+                cout << "\n\nPress any key to return.\tQ/q to exit.\n";
+                checkExitCondition();
                 break;
-            case 5:
+            }
+            case 5: {
+                //TODO continue menu
+                cout << "\n\nPress any key to return.\tQ/q to exit.\n";
+                checkExitCondition();
                 break;
-            case 6:
+            }
+            case 6: {
+                
+                cout << "\n\nPress any key to return.\tQ/q to exit.\n";
+                checkExitCondition();
                 break;
+            }
             case 'q':
             case 'Q':
                 cout << "Bye bye!\n";
