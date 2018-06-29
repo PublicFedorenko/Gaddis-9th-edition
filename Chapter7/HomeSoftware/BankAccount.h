@@ -14,7 +14,7 @@ private:
     int transactions;       // current number of transactions
 public:
     BankAccount();
-    BankAccount(double balance, double interestRate);
+//    BankAccount(double balance, double interestRate);
     void makeDeposition(double deposit);
     bool makeWithdrawal(double withdrawal);
     void calcInterest(void);

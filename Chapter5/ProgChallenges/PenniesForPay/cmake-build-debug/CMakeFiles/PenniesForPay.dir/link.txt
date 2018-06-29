@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/PenniesForPay.dir/main.cpp.o  -o PenniesForPay 

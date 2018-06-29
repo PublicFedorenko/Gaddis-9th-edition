@@ -5,7 +5,9 @@
 #ifndef HOMESOFTWARE_MENU_H
 #define HOMESOFTWARE_MENU_H
 
-void displayMenu();
+#include "BankAccount.h"
+
+void displayMenu(BankAccount acc);
 void showParagraphs();
 void clear();
 void checkExitCondition();

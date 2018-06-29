@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/WeightLoss.dir/main.cpp.o  -o WeightLoss 

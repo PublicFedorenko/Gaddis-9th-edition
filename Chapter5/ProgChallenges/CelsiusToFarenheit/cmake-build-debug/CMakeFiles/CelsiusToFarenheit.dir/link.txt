@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/CelsiusToFarenheit.dir/main.cpp.o  -o CelsiusToFarenheit 

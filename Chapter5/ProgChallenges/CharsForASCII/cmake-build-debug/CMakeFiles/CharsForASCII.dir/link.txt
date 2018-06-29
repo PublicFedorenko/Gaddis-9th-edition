@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/CharsForASCII.dir/main.cpp.o  -o CharsForASCII 

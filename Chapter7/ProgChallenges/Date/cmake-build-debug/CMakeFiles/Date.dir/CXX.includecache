@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/Date/Data.cpp
+Data.h
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/Date/Data.h
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/Date/Data.h
+iostream
+-
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/Date/main.cpp
+iostream
+-
+

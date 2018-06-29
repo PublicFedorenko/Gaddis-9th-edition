@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Inheritance_and_pointers.dir/main.cpp.o CMakeFiles/Inheritance_and_pointers.dir/Inheritance.cpp.o  -o Inheritance_and_pointers 

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/HomeSoftware/BankAccount.cpp
+BankAccount.h
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/HomeSoftware/BankAccount.h
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/HomeSoftware/BankAccount.h
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/HomeSoftware/main.cpp
+iostream
+-
+menu.h
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/HomeSoftware/menu.h
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/HomeSoftware/menu.cpp
+cctype
+-
+iostream
+-
+cstdlib
+-
+menu.h
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/HomeSoftware/menu.h
+BankAccount.h
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/HomeSoftware/BankAccount.h
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/HomeSoftware/menu.h
+BankAccount.h
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/HomeSoftware/BankAccount.h
+

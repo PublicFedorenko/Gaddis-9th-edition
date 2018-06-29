@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/SpeedConversionChart.dir/main.cpp.o  -o SpeedConversionChart 
