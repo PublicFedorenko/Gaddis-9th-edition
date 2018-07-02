@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/CarClass/Car.cpp
+Car.h
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/CarClass/Car.h
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/CarClass/Car.h
+iostream
+-
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/CarClass/main.cpp
+iostream
+-
+Car.h
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/CarClass/Car.h
+

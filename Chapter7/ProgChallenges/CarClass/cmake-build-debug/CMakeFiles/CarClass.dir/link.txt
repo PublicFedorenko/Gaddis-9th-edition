@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/CarClass.dir/main.cpp.o CMakeFiles/CarClass.dir/Car.cpp.o  -o CarClass 
