@@ -15,7 +15,6 @@ int main() {
         std::cin >> month;
     }
 
-
     int day;
     std::cout << "\tDay: ";
     std::cin >> day;
