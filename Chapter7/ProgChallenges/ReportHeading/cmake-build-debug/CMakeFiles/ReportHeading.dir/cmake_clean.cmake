@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ReportHeading.dir/main.cpp.o"
+  "CMakeFiles/ReportHeading.dir/Heading.cpp.o"
   "ReportHeading.pdb"
   "ReportHeading"
 )

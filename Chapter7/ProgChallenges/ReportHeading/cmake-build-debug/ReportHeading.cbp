@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/ReportHeading/Heading.cpp">
+			<Option target="ReportHeading"/>
+		</Unit>
+		<Unit filename="/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/ReportHeading/Heading.h">
+			<Option target="ReportHeading"/>
+		</Unit>
 		<Unit filename="/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/ReportHeading/main.cpp">
 			<Option target="ReportHeading"/>
 		</Unit>

@@ -123,6 +123,33 @@ ReportHeading/fast:
 	$(MAKE) -f CMakeFiles/ReportHeading.dir/build.make CMakeFiles/ReportHeading.dir/build
 .PHONY : ReportHeading/fast
 
+Heading.o: Heading.cpp.o
+
+.PHONY : Heading.o
+
+# target to build an object file
+Heading.cpp.o:
+	$(MAKE) -f CMakeFiles/ReportHeading.dir/build.make CMakeFiles/ReportHeading.dir/Heading.cpp.o
+.PHONY : Heading.cpp.o
+
+Heading.i: Heading.cpp.i
+
+.PHONY : Heading.i
+
+# target to preprocess a source file
+Heading.cpp.i:
+	$(MAKE) -f CMakeFiles/ReportHeading.dir/build.make CMakeFiles/ReportHeading.dir/Heading.cpp.i
+.PHONY : Heading.cpp.i
+
+Heading.s: Heading.cpp.s
+
+.PHONY : Heading.s
+
+# target to generate assembly for a file
+Heading.cpp.s:
+	$(MAKE) -f CMakeFiles/ReportHeading.dir/build.make CMakeFiles/ReportHeading.dir/Heading.cpp.s
+.PHONY : Heading.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ReportHeading"
+	@echo "... Heading.o"
+	@echo "... Heading.i"
+	@echo "... Heading.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

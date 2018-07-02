@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/ReportHeading/Heading.cpp" "/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/ReportHeading/cmake-build-debug/CMakeFiles/ReportHeading.dir/Heading.cpp.o"
   "/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/ReportHeading/main.cpp" "/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/ReportHeading/cmake-build-debug/CMakeFiles/ReportHeading.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

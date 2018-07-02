@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/ReportHeading/Heading.cpp
+Heading.h
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/ReportHeading/Heading.h
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/ReportHeading/Heading.h
+iostream
+-
+iomanip
+-
+
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/ReportHeading/main.cpp
+iostream
+-
+Heading.h
+/home/bohdan/progbase/Gaddis-9th-edition/Chapter7/ProgChallenges/ReportHeading/Heading.h
+
