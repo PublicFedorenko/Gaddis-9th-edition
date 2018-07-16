@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/NationalCommerceBank_CaseStudy.dir/main.cpp.o  -o NationalCommerceBank_CaseStudy 
